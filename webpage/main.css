@@ -1,0 +1,89 @@
+.user-body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: absolute;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 20 auto;
+  top: 15vh;
+  z-index: 500;
+  background-color: #202225;
+  text-align: center;
+  color: #CDCDCD;
+  font-family: 'Merriweather', serif;
+}
+.user-body * {
+  margin: 0 auto;
+}
+.user-title {
+  text-align: center;
+  font-size: 56pt;
+  font-family: georgia, serif;
+  padding-top: 7vh;
+}
+.user-blurple {
+  color: #7289DA;
+}
+a.user-blurple:hover {
+  color: #4666db;
+  text-decoration: none;
+}
+.user-slide {
+ width: 80vw;
+  min-height: 93vh;
+}
+.user-fullscreen {
+ width: 100vw;
+  height: 100vh;
+}
+hr {
+  height: 3px;
+  width: 40%;
+  background-color: #000;
+  margin-bottom: 10px !important;
+}
+body {
+ overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #202225;
+  margin: 0px;
+  padding: 0px;
+}
+p.user-big {
+ font-size: 24pt; 
+}
+p.user-medium {
+ font-size: 16pt; 
+}
+p {
+ font-weight: bold;
+}
+.user-half {
+  width: 50%;
+  display: inline;
+  float: left;
+}
+@media only screen and (max-width: 1000px) {
+  .user-body {
+    font-family: 'Roboto', sans-serif;
+  }
+  p.user-medium {
+    font-size: 12pt;
+  }
+}
+.navbar {
+  background-color: #000000;
+}
+.nav-link, .nav-item {
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+}
+.nav-link:hover, .nav-link.active, .nav-item.show, .nav-pills .nav-link.active, .dropdown-toggle[aria-expanded="true"] {
+  color: #000000 !important;
+  background-color: #FFFFFF !important;
+}
+.user-code {
+ font-family: 'Ubuntu Mono', monospace;
+  background-color: rgba(0, 0, 0, 0.6)
+}
